@@ -1,20 +1,75 @@
-source 'https://github.com/CocoaPods/specs.git'
 source 'https://github.com/facetec/cocoapods-specs.git'
-platform :ios, '10.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+target 'BlinkingLabel' do
+    pod 'BlinkingLabel'
+    pod 'ZoomAuthentication'
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 use_frameworks!
 
 target 'BlinkingLabel_Example' do
-  pod 'BlinkingLabel', :path => '../'
-  # pod 'Alamofire', '~> 4.7'
-  pod 'ZoomAuthentication', :git => 'https://github.com/facetec/cocoapods-specs.git'
+    #pod 'BlinkingLabel', :path => '../'
+  pod 'Alamofire', '~> 4.7'
+  # pod 'ZoomAuthentication', :git => 'https://github.com/facetec/cocoapods-specs.git'
   # pod 'ZoomAuthentication','~> 6.2.2'
 end
 
-#  target 'BlinkingLabel_Tests' do
-#    inherit! :search_paths
-#    pod 'Alamofire', '~> 4.7'
-##    pod 'ZoomAuthentication', :git => 'https://github.com/facetec/cocoapods-specs.git'
-##    pod 'ZoomAuthentication','~> 6.2.3'
-#
+use_frameworks!
+
+#target 'BlinkingLabel_Example' do
+#     pod 'Alamofire', '~> 4.7'
 #end
+
+#  target 'BlinkingLabel_Tests' do
+#      #    inherit! :search_paths
+##    use_frameworks!
+#    pod 'BlinkingLabel', :path => '../'
+#end
+#
+target 'BlinkingLabel_Tests' do
+    inherit! :search_paths
+      pod 'Alamofire', '~> 4.7'
+    # pod 'Alamofire', '~> 4.7'
+#    pod 'ZoomAuthentication', :git => 'https://github.com/facetec/cocoapods-specs.git'
+# pod 'ZoomAuthentication','~> 6.2.2'
+##
+end

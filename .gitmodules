@@ -1,0 +1,6 @@
+[submodule "Alamofire"]
+	path = Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "cocoapods-specs"]
+	path = cocoapods-specs
+	url = https://github.com/facetec/cocoapods-specs.git
